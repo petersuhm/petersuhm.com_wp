@@ -1,0 +1,28 @@
+{
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "wordpress",
+                "type": "webroot",
+                "version": "4.1",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/WordPress/WordPress/archive/4.1.zip"
+                },
+                "require": {
+                    "fancyguy/webroot-installer": "1.0.0"
+                }
+            }
+        }
+    ],
+    "require": {
+        "wordpress": "~4.1",
+        "fancyguy/webroot-installer": "1.0.0",
+        "vlucas/phpdotenv": "~1.1"
+    },
+    "extra": {
+        "webroot-dir": "public/wp",
+        "webroot-package": "wordpress"
+    }
+}
