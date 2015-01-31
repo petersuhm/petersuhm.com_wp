@@ -1,3 +1,4 @@
 public/wp
 vendor
 .env
+.idea

@@ -1,0 +1,10 @@
+/*
+Theme Name: Peter Suhm.com
+Template: twentyfifteen
+*/
+
+@import url('../twentyfifteen/style.css');
+
+pre {
+    padding: 0;
+}
